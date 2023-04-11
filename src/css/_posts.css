@@ -1,0 +1,38 @@
+.posts{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.posts__row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 21px;
+}
+
+.posts__column{
+    width: 333px;
+    display: flex;
+    flex-direction: column;
+}
+
+.posts__descr{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 20px;
+}
+
+.posts__data{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #B5B7C7;
+}
+
+.posts__data_mt52{
+    margin-top: 52px;
+}

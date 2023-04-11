@@ -1,0 +1,80 @@
+.sponsors{
+    padding-top: 183px;
+    padding-bottom: 192px;
+}
+
+.sponsors__worked{
+    margin-top: 97px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sponsors__wrapper{
+    display: flex;
+    margin-top: 36px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 69px;
+    padding-right: 69px;
+    margin-bottom: 162px;
+}
+
+.sponsors__wrapper img{
+    margin-right: 138px;
+}
+
+.sponsors__wrapper img:nth-child(4) , img:nth-child(8){
+    margin-right: 0;
+}
+
+.sponsors__row{
+    display: flex;
+    align-items: flex-end;
+}
+
+.sponsors__descr{
+    width: 586px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    color: #4E66FF;
+    margin-right: 75px;
+}
+
+.sponsors__san-francisco{
+    display: flex;
+    align-items: center;
+}
+
+.sponsors__column span{
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #393737;
+}
+
+.sponsors__san-francisco img{
+    margin-right: 20px;
+}
+
+.sponsors__column{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #70748C;
+}
+
+.sponsors__worked{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #393737;
+}

@@ -1,0 +1,150 @@
+.schedule{
+    height: 902px;
+    padding-top: 58px;
+}
+
+.schedule-block{
+    width: 822px;
+    height: 171px;
+    background-color: #F9FBFD;
+    border-radius: 15px;
+    margin: 108px 0 30px 80px;
+    padding: 0 20px 10px 20px;
+    position: relative;
+}
+
+.schedule__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.schedule__row_element{
+    padding-top: 15px;
+}
+.schedule__btn{
+    border: none;
+    background-color: transparent;
+}
+.schedule__download{
+    border: none;
+    background-color: transparent;
+}
+
+.schedule__download img{
+    width: 20px;
+    height: 20px;
+}
+
+.schedule__column{
+    width: 95px;
+}
+
+.schedule__stat{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.schedule__substats{
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.schedule__form{
+    background-color: #e5eaec;
+    width: 177px;
+    height: 82px;
+    padding: 9px;
+}
+
+.schedule__form input{
+    height: 20px;
+    padding-left: 10px;
+    font-size: 11px;
+    line-height: 14px;
+    color: #7c90a1;
+    border: none;
+    color: transparent;
+    transition: 1.2s all;
+}
+
+input:focus{
+    color: #7c90a1;
+}
+
+.feed-form .feed-form__range{
+    font-size: 11px;
+    color: #7c90a1;
+    line-height: 11px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+.feed-form .feed-form__range_mt{
+    margin-top: 3px;
+}
+
+.schedule__btn{
+    color: blue;
+}
+
+.schedule__substats{
+    color: #7c90a1;
+}
+
+.schedule__BackgroundBlack{
+    position: absolute;
+    left: 34.42%;
+    right: 0%;
+    z-index: -1;
+    top: 236px;
+}
+
+.feed-form .feed-form__info{
+    position: absolute;
+    color: #7c90a1;
+    font-size: 9px;
+    left: 10px;
+    transition: 0.5s all;
+}
+
+.feed-form .feed-form__info2{
+    top: 55px;
+}
+
+.feed-form .feed-form__info1{
+    top: 18px;
+}
+
+#From:focus ~ .feed-form__info1{
+    left:  -50px;
+    color: transparent;
+}
+
+#To:focus ~ .feed-form__info2{
+    left: -50px;
+    color: transparent;
+}
+
+.schedule__row_element:before{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 782px;
+    background: #e2e6eb;
+    position: absolute;
+    top: 50px;
+}
+
+.schedule__row_mod{
+    margin-top: 30px;
+}
+
+.schedule__wrapper{
+    display: flex;
+    align-items: flex-end;
+}
+
+.feed-form__range, .feed-form__to{
+    position: static;
+}

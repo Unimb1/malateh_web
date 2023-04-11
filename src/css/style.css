@@ -1,0 +1,25 @@
+@import '../css/_firstsection.css';
+@import '../css/_button.css';
+@import '../css/_better.css';
+@import '../css/_title.css';
+@import '../css/_subtitle.css';
+@import '../css/_schedule.css';
+@import '../css/_forms.css';
+@import '../css/_box-twin.css';
+@import '../css/_box-radius.css';
+@import '../css/_sponsors.css';
+@import '../css/_cities.css';
+@import '../css/_posts.css';
+@import '../css/_aplication.css';
+@import '../css/_last-one.css';
+.container{
+    width: 1032px;
+    margin: 0 auto;
+}
+
+.container_schedule{
+    position: relative;
+}
+
+
+

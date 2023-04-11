@@ -1,0 +1,22 @@
+.subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 25px;
+    width: 451px;
+    color: #70748C;
+    line-height: 24px;
+}
+
+.subtitle_mini{
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.subtitle_minis{
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 13px;
+    margin-bottom: 73px;
+}

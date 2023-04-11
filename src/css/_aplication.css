@@ -1,0 +1,162 @@
+.application{
+    background-color: #DDEBFF;
+    padding: 156px 102px 146px 159px;
+    position: relative;
+}
+
+.application__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.application__text span{
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #393737;
+    margin-top: 313px;
+}
+
+.application .application__wrapper .application__input {
+    display: block;
+    width: 604px;
+    margin-bottom: 30px;
+    height: 54px;
+}
+
+.noBg-form input:nth-child(3),input:nth-child(4){
+    width: 293px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    height: 54px;
+    
+}
+
+.noBg-form input:nth-child(4){
+    margin-right: 0;
+}
+
+.application .application__wrapper .application__message{
+    height: 108px;
+}
+
+.noBg-form input{
+    border: none;
+    padding-right: 37px;
+    padding-left: 37px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    border-radius: 4px;
+    
+}
+
+.noBg-form ::-webkit-input-placeholder{
+    color: rgba(0, 0, 0, 0.22);
+}
+
+.application__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+}
+
+.application img{
+    position: absolute;
+    height: 562px;
+    left: 81px;
+    right: 55.07%;
+    top: 106px;
+    
+}
+
+.noBg-form{
+    min-height: 477px;
+    position: relative;
+    width: 611px;
+    transition: 5s all;
+    
+}
+
+.noBg-form .error{
+    border: 1px solid red;
+}
+
+.noBg-form #name-error{
+    border: none ;
+}
+
+.noBg-form #email-error{
+    border: none ;
+    display: block;
+}
+
+.noBg-form #position-error{
+    border: none ;
+}
+
+.noBg-form #message-error{
+    border: none ;
+}
+
+.noBg-form #company-error{
+    border: none ;
+    display: block;
+}
+
+.application__company{
+    width: 293px;
+    height: 54px;
+    margin-bottom: 30px;
+}
+
+.error ~ .application__position{
+    width: 293px;
+    position: absolute;
+    bottom: 225px;
+    right: 6px;
+}
+
+.error ~ #position-error{
+    width: 293px;
+    position: absolute;
+    bottom: 226px;
+    right: 6px;
+}
+
+
+.application__position{
+    height: 54px;
+    margin-bottom: 30px;
+}
+
+
+label{
+    position: absolute;
+    color: rgb(133, 133, 133);
+    
+}
+
+#email-error{
+    bottom: 305px;
+}
+
+#name-error{
+    bottom: 390px;
+}
+
+#company-error{
+    bottom: 225px;
+}
+
+#message-error{
+    bottom: 85px;
+}
+

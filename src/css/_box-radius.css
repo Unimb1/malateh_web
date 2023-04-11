@@ -1,0 +1,77 @@
+.box-radius{
+    width: 450px;
+    height: 371px;
+    background-color: #fff;
+    border-radius: 18px 18px 0px 0px;
+    margin-left: 30px;
+    padding: 39px 95px 32px 42px;
+    position: relative;
+}
+
+.box-radius__pie{
+    width: 178px;
+    height: 178px;
+    background: conic-gradient( rgb(138, 138, 216) 0.0%, 7.0%, rgb(228, 235, 228) 7.0% 20.0%, rgb(44, 44, 44) 20.0% 63.0%, rgb(178, 228, 165) 63.00% 81.00%, rgb(252, 255, 66) 81.0%);
+    border-radius: 100%;
+    position: relative;
+    left: 80px;
+    transition: 0.5s all;
+}
+
+.box-radius__pie:hover{
+    transform: rotate(360deg);
+    width: 185px;
+    height: 185px;
+    box-shadow: 4px 4px 20px rgb(178, 228, 165);
+}
+
+.box-radius__pie_white{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    border-radius: 100%;
+    background-color: #fff;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    z-index: 1;
+    
+}
+
+.box-radius__descr{
+    position: absolute;
+}
+
+.box-radius__descr_1{
+    top: 119px;
+    left: 55px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.box-radius__descr_2{
+    top: 119px;
+    right: 85px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.box-radius__descr_3{
+    top: 173px;
+    right: 60px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.box-radius__descr_4{
+    top: 295px;
+    right: 70px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.box-radius__descr_5{
+    bottom: 70px;
+    font-size: 14px;
+    font-weight: 600;
+}
